@@ -1,0 +1,71 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+ ul {
+  list-style-type: none;
+}
+
+.task-status p {
+      margin: 0;
+}
+
+li .line-decoration {
+  text-decoration: line-through;
+}
+
+.form-container {
+  width: 40%;
+}
+
+.btn-primary {
+  position: relative;
+  top: -50px;
+  left: 800px;
+  width: 58px;
+}
+
+.fas fa-plus {
+  color: blue;
+  margin-left: 11px;
+
+}
+
+.btn {
+  a {
+    color: white;
+  }
+
+}
+
+.button-center {
+  align-self: center;
+  width: 30%;
+}
+
+.new_task {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-details {
+  background: #F7F7F7 ;
+  color: black;
+  padding: 36px 36px;
+  margin-right: 210px;
+  margin-left: 36px;
+  border-radius: 5px;
+}
+
+.task-status {
+  margin-top: 45px;
+  list-style-type: none;
+  margin-left: 30px;
+  li {
+    display: flex;
+    align-items: center;
+    p {
+      margin-left: 17px;
+    }
+  }
+
+}
