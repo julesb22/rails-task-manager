@@ -1,6 +1,10 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+a {
+  text-decoration: none;
+}
  ul {
   list-style-type: none;
 }
@@ -17,11 +21,19 @@ li .line-decoration {
   width: 40%;
 }
 
-.btn-primary {
+#edit-button {
   position: relative;
   top: -50px;
   left: 800px;
   width: 58px;
+  background: #009CED;
+  text-align: center;
+  border-radius: 5px;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 .fas fa-plus {

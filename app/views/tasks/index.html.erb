@@ -7,7 +7,7 @@
               <i class="far fa-square"></i>
             <% end %>
               <%= link_to "#{task.title}", task_path(task.id)%>  <%= link_to destroy_task_path(task.id), method: :delete, data: { confirm: "Are you sure?" } do %>
-              <i class="fas fa-plus"></i>
+              <i class="far fa-trash-alt"></i>
            <% end  %>
       </li>
     <% end  %>
